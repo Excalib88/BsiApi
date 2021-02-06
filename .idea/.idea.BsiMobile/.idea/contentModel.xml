@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\rave9\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\rave9\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_BsiMobile.1636490000.00" t="ExcludeRecursive" />
+    <e p="C:\Users\rave9\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
+    <e p="D:\Projects\BsiMobile" t="IncludeFlat">
+      <e p="BsiMobile.sln" t="IncludeFlat" />
+      <e p="BsiMobile.Web" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BsiMobile.Web.csproj" t="IncludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="BaseController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
+        </e>
+        <e p="DataAccess" t="Include">
+          <e p="DataContext.cs" t="Include" />
+          <e p="Entities" t="Include">
+            <e p="BaseEntity.cs" t="Include" />
+            <e p="IEntity.cs" t="Include" />
+            <e p="User.cs" t="Include" />
+          </e>
+          <e p="Repositories" t="Include">
+            <e p="DbRepository.cs" t="Include" />
+            <e p="IDbRepository.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Domain" t="Include">
+          <e p="Services" t="Include">
+            <e p="Users" t="Include">
+              <e p="AuthenticateRequest.cs" t="Include" />
+              <e p="AuthenticateResponse.cs" t="Include" />
+              <e p="CurrentUser.cs" t="Include" />
+              <e p="ICurrentUser.cs" t="Include" />
+              <e p="IUser.cs" t="Include" />
+              <e p="IUserService.cs" t="Include" />
+              <e p="UserModel.cs" t="Include" />
+              <e p="UserService.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Helpers" t="Include">
+          <e p="AuthOptions.cs" t="Include" />
+          <e p="AuthorizeAttribute.cs" t="Include" />
+          <e p="ClientErrorException.cs" t="Include" />
+          <e p="UserHelper.cs" t="Include" />
+        </e>
+        <e p="MappingProfiles.cs" t="Include" />
+        <e p="Middlewares" t="Include">
+          <e p="JwtMiddleware.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20210206214133_AddIdentity.cs" t="Include" />
+          <e p="20210206214133_AddIdentity.Designer.cs" t="Include" />
+          <e p="DataContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="BsiMobile.Web.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
