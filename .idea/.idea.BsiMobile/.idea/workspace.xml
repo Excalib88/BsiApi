@@ -5,41 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7b62836-4f4f-4998-8b59-1d6dfa4eec23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BsiMobile/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BsiMobile/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BsiMobile/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BsiMobile/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BsiMobile/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.BsiMobile/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/BsiMobile.Web.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Controllers/BaseController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Controllers/UserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/DataContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/BaseEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/IEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Repositories/DbRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Repositories/IDbRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/AuthenticateRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/AuthenticateResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/CurrentUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/ICurrentUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/IUser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/IUserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/UserModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/UserService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Helpers/AuthOptions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Helpers/AuthorizeAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Helpers/ClientErrorException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Helpers/UserHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Middlewares/JwtMiddleware.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/Chat.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/Message.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/ChatsService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/IChatsService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/IMessagesService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/MessageModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/MessagesService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/AesKeyModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Helpers/CryptHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BsiMobile/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BsiMobile/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BsiMobile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BsiMobile/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/BsiMobile.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/BsiMobile.Web.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/MappingProfiles.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +41,6 @@
       <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/AuthenticateRequest.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/AuthenticateResponse.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/CurrentUser.cs" />
-      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/IUserService.cs" />
-      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/UserService.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Helpers/UserHelper.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Helpers/AuthOptions.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Middlewares/JwtMiddleware.cs" />
@@ -70,6 +49,21 @@
       <option value="$PROJECT_DIR$/BsiMobile.Web/Controllers/UserController.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/appsettings.Development.json" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/appsettings.json" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/ChatService.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/IChatService.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/IChatsService.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/IMessagesService.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/Chat.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/User.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/AesKeyModel.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/Message.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Helpers/CryptHelper.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/IUserService.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/UserService.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/ChatsService.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/MappingProfiles.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/MessageModel.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/MessagesService.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1o7nFU9hJKDxsmWB81jv80301m9" />
@@ -81,11 +75,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="RiderNuGetOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -130,14 +133,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612646397144</updated>
-      <workItem from="1612646412500" duration="1273000" />
+      <workItem from="1612646412500" duration="6561000" />
+      <workItem from="1612704121738" duration="2607000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -149,40 +153,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BsiMobile.Web/Startup.cs</url>
-          <line>101</line>
-          <properties documentPath="D:\Projects\BsiMobile\BsiMobile.Web\Startup.cs" initialLine="104" containingFunctionPresentation="lambda expression inside method 'Configure'">
-            <startOffsets>
-              <option value="2911" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2912" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/BsiMobile.Web/Startup.cs</url>
-          <line>95</line>
-          <properties documentPath="D:\Projects\BsiMobile\BsiMobile.Web\Startup.cs" initialLine="98" containingFunctionPresentation="method 'Configure'">
-            <startOffsets>
-              <option value="2819" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2835" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -7,6 +7,7 @@ namespace BsiMobile.Web.Domain.Services.Users
 	{
 		AuthenticateResponse GetInfo(string username);
 		AuthenticateResponse Authenticate(AuthenticateRequest model);
+		AesKeyModel GetAesKey(long userId); 
 		Task<AuthenticateResponse> Register(UserModel userModel);
 
 		User GetById(int id);

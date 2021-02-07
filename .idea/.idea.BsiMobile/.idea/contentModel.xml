@@ -19,7 +19,9 @@
           <e p="DataContext.cs" t="Include" />
           <e p="Entities" t="Include">
             <e p="BaseEntity.cs" t="Include" />
+            <e p="Chat.cs" t="Include" />
             <e p="IEntity.cs" t="Include" />
+            <e p="Message.cs" t="Include" />
             <e p="User.cs" t="Include" />
           </e>
           <e p="Repositories" t="Include">
@@ -29,7 +31,17 @@
         </e>
         <e p="Domain" t="Include">
           <e p="Services" t="Include">
+            <e p="Chats" t="Include">
+              <e p="ChatsService.cs" t="Include" />
+              <e p="IChatsService.cs" t="Include" />
+            </e>
+            <e p="Messages" t="Include">
+              <e p="IMessagesService.cs" t="Include" />
+              <e p="MessageModel.cs" t="Include" />
+              <e p="MessagesService.cs" t="Include" />
+            </e>
             <e p="Users" t="Include">
+              <e p="AesKeyModel.cs" t="Include" />
               <e p="AuthenticateRequest.cs" t="Include" />
               <e p="AuthenticateResponse.cs" t="Include" />
               <e p="CurrentUser.cs" t="Include" />
@@ -45,6 +57,7 @@
           <e p="AuthOptions.cs" t="Include" />
           <e p="AuthorizeAttribute.cs" t="Include" />
           <e p="ClientErrorException.cs" t="Include" />
+          <e p="CryptHelper.cs" t="Include" />
           <e p="UserHelper.cs" t="Include" />
         </e>
         <e p="MappingProfiles.cs" t="Include" />

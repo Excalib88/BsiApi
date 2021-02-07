@@ -38,9 +38,25 @@ namespace BsiMobile.Web.Domain.Services.Users
 			return new AuthenticateResponse(user, token);
 		}
 
+		public AesKeyModel GetAesKey(long userId)
+		{
+			var user = _dbRepository.GetById<User>(userId);
+
+			return new AesKeyModel
+			{
+				Key = user.Key,
+				Iv = user.Iv
+			};
+		}
+
 		public async Task<AuthenticateResponse> Register(UserModel userModel)
 		{
 			var user = _mapper.Map<User>(userModel);
+
+			var aesKey = CryptHelper.GenerateAesKeys();
+
+			user.Key = aesKey.Key;
+			user.Iv = aesKey.Iv;
 
 			await _dbRepository.Add(user);
 
