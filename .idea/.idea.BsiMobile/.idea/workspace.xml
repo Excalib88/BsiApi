@@ -5,22 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7b62836-4f4f-4998-8b59-1d6dfa4eec23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/Chat.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/Message.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/ChatsService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/IChatsService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/IMessagesService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/MessageModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/MessagesService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/AesKeyModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Helpers/CryptHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Controllers/ChatController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/ChatUsers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/ChatModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Migrations/20210207205126_AesFields.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Migrations/20210207205126_AesFields.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Migrations/20210207205534_ChatEntities.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Migrations/20210207205534_ChatEntities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Migrations/20210207211139_ChatUsers.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BsiMobile.Web/Migrations/20210207211139_ChatUsers.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BsiMobile/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BsiMobile/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BsiMobile/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BsiMobile/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/BsiMobile.Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/BsiMobile.Web.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/IUserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/DataContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/DataContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/Chat.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/Chat.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/ChatsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/ChatsService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/IChatsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/IChatsService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/IMessagesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/IMessagesService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/MessageModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/MessageModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/MessagesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/MessagesService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BsiMobile.Web/MappingProfiles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/MappingProfiles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/Migrations/DataContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/Migrations/DataContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BsiMobile.Web/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BsiMobile.Web/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +35,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2BC5ED24-0D5C-402C-8B6A-BD14FFCEE267/1E0/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2931DAB6-0D02-406E-9F9B-BB683C1317B0/19/First.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Enitities/BaseEntity.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/BaseEntity.cs" />
-      <option value="$PROJECT_DIR$/BsiMobile.Web/DataAccess/DataContext.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Repositories/DbRepository.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Repositories/IDbRepository.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Helpers/AuthorizeAttribute.cs" />
@@ -44,25 +52,30 @@
       <option value="$PROJECT_DIR$/BsiMobile.Web/Helpers/UserHelper.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Helpers/AuthOptions.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Middlewares/JwtMiddleware.cs" />
-      <option value="$PROJECT_DIR$/BsiMobile.Web/Startup.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Controllers/BaseController.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Controllers/UserController.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/appsettings.Development.json" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/appsettings.json" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/ChatService.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/IChatService.cs" />
-      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/IChatsService.cs" />
-      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/IMessagesService.cs" />
-      <option value="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/Chat.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/User.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/AesKeyModel.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/Message.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Helpers/CryptHelper.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/IUserService.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Users/UserService.cs" />
-      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/ChatsService.cs" />
-      <option value="$PROJECT_DIR$/BsiMobile.Web/MappingProfiles.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Controllers/ChatConroller.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Startup.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/ChatUsers.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/MessageModel.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/DataAccess/DataContext.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/DataAccess/Entities/Chat.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/IChatsService.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/ChatsService.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Controllers/ChatController.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Chats/ChatModel.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/IMessagesService.cs" />
+      <option value="$PROJECT_DIR$/BsiMobile.Web/MappingProfiles.cs" />
       <option value="$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/MessagesService.cs" />
     </changedPaths>
   </component>
@@ -134,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612646397144</updated>
       <workItem from="1612646412500" duration="6561000" />
-      <workItem from="1612704121738" duration="2607000" />
+      <workItem from="1612704121738" duration="8831000" />
     </task>
     <servers />
   </component>
@@ -158,5 +171,24 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/BsiMobile.Web/Domain/Services/Messages/MessagesService.cs</url>
+          <line>64</line>
+          <properties documentPath="D:\Projects\BsiMobile\BsiMobile.Web\Domain\Services\Messages\MessagesService.cs" initialLine="65" containingFunctionPresentation="method 'GetMessagesByChat'">
+            <startOffsets>
+              <option value="1685" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1747" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

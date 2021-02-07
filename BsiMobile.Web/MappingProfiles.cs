@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using AutoMapper;
 using BsiMobile.Web.DataAccess.Entities;
+using BsiMobile.Web.Domain.Services.Chats;
 using BsiMobile.Web.Domain.Services.Messages;
 using BsiMobile.Web.Domain.Services.Users;
 
@@ -24,13 +25,16 @@ namespace BsiMobile.Web
 				.ForSourceMember(src => src.Text, opt=> opt.DoNotValidate())
 				;
 
-			CreateMap<Message, MessageModel>(MemberList.Destination)
+			CreateMap<Message, MessageModel>()
 				.ForMember(dst => dst.Text, opt => opt.Ignore())
 				;
 
-			CreateMap<IReadOnlyCollection<MessageModel>, List<Message>>();
-
-			CreateMap<List<Message>, IReadOnlyCollection<MessageModel>>();
+			CreateMap<Chat, ChatModel>(MemberList.Destination)
+				.ForMember(dst => dst.Messages, opt => opt.MapFrom(src => src.Messages))
+				;
+			CreateMap<ChatModel, Chat>(MemberList.Source)
+				.ForMember(dst => dst.Messages, opt => opt.MapFrom(src => src.Messages))
+				;
 		}
 	}
 }

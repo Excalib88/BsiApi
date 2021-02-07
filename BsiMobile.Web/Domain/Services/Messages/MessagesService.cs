@@ -13,6 +13,8 @@ namespace BsiMobile.Web.Domain.Services.Messages
 {
 	public class MessagesService : IMessagesService
 	{
+		#region DI и конструктор
+
 		private readonly IMapper _mapper;
 		private readonly IUserService _userService;
 		private readonly ICurrentUser _currentUser;
@@ -30,6 +32,8 @@ namespace BsiMobile.Web.Domain.Services.Messages
 			_dbRepository = dbRepository;
 		}
 
+		#endregion
+
 		public async Task<long> Send(MessageModel message)
 		{
 			var messageEntity = _mapper.Map<Message>(message);
@@ -43,19 +47,19 @@ namespace BsiMobile.Web.Domain.Services.Messages
 			return result;
 		}
 
-		public IReadOnlyCollection<MessageModel> GetMessagesByChat(long chatId)
+		public List<MessageModel> GetMessagesByChat(long chatId)
 		{
 			var userId = _currentUser.Id;
 
 			var chat = _dbRepository
 				.Get<Chat>()
-				.Include(x => x.Users)
+				.Include(x => x.ChatUsers)
 				.Include(x => x.Messages)
 				.FirstOrDefault(x => x.Id == chatId);
 
-			if (chat?.Users.FirstOrDefault(x => x.Id == userId) != null)
+			if (chat?.ChatUsers.FirstOrDefault(x => x.UserId == userId) != null)
 			{
-				var messages = _mapper.Map<IReadOnlyCollection<MessageModel>>(chat.Messages);
+				var messages = _mapper.Map<List<MessageModel>>(chat.Messages);
 				var aesKey = _userService.GetAesKey(userId);
 				
 				foreach (var message in messages)

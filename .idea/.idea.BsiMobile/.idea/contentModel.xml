@@ -13,6 +13,7 @@
         <e p="BsiMobile.Web.csproj" t="IncludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="BaseController.cs" t="Include" />
+          <e p="ChatController.cs" t="Include" />
           <e p="UserController.cs" t="Include" />
         </e>
         <e p="DataAccess" t="Include">
@@ -20,6 +21,7 @@
           <e p="Entities" t="Include">
             <e p="BaseEntity.cs" t="Include" />
             <e p="Chat.cs" t="Include" />
+            <e p="ChatUsers.cs" t="Include" />
             <e p="IEntity.cs" t="Include" />
             <e p="Message.cs" t="Include" />
             <e p="User.cs" t="Include" />
@@ -32,6 +34,7 @@
         <e p="Domain" t="Include">
           <e p="Services" t="Include">
             <e p="Chats" t="Include">
+              <e p="ChatModel.cs" t="Include" />
               <e p="ChatsService.cs" t="Include" />
               <e p="IChatsService.cs" t="Include" />
             </e>
@@ -67,6 +70,12 @@
         <e p="Migrations" t="Include">
           <e p="20210206214133_AddIdentity.cs" t="Include" />
           <e p="20210206214133_AddIdentity.Designer.cs" t="Include" />
+          <e p="20210207205126_AesFields.cs" t="Include" />
+          <e p="20210207205126_AesFields.Designer.cs" t="Include" />
+          <e p="20210207205534_ChatEntities.cs" t="Include" />
+          <e p="20210207205534_ChatEntities.Designer.cs" t="Include" />
+          <e p="20210207211139_ChatUsers.cs" t="Include" />
+          <e p="20210207211139_ChatUsers.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">

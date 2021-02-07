@@ -1,10 +1,10 @@
-﻿using System.Threading.Tasks;
-using BsiMobile.Web.DataAccess.Entities;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace BsiMobile.Web.Domain.Services.Chats
 {
 	public interface IChatsService
 	{
-		Task<long> SendMessage(Message message);
+		Task<long> Create(List<long> userIds);
 	}
 }

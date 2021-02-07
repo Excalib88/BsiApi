@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using BsiMobile.Web.DataAccess;
 using BsiMobile.Web.DataAccess.Repositories;
+using BsiMobile.Web.Domain.Services.Chats;
+using BsiMobile.Web.Domain.Services.Messages;
 using BsiMobile.Web.Domain.Services.Users;
 using BsiMobile.Web.Helpers;
 using BsiMobile.Web.Middlewares;
@@ -89,6 +91,8 @@ namespace BsiMobile.Web
 			services.AddScoped<ICurrentUser, CurrentUser>();
 			services.AddScoped<IUserService, UserService>();
 			services.AddScoped<IDbRepository, DbRepository>();
+			services.AddScoped<IMessagesService, MessagesService>();
+			services.AddScoped<IChatsService, ChatsService>();
 		}
 
 		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
